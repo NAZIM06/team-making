@@ -20,6 +20,7 @@ const Dashboard = (props) => {
     return (
         <div className="main-div">
             <div className="person-div">
+                <h1 style={{textAlign: "center", color: "red"}}>Player Board</h1>
 
                 {
                     persons.map(prsn => <Player handleAddPlayer={handleAddPlayer}
